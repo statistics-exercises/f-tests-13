@@ -4,7 +4,7 @@ You can now generate samples of the statistic:
 
 ![](https://render.githubusercontent.com/render/math?math=F=\frac{SS_T/(t-1)}{SS_E/\left[\sum_{j=1}^t(n_j-1)\right]})
 
-As was briefly alluded to in the instructions for the previous task, if the expectations for all t distributions that were sampled are identical F is a sample from an f-distribution with ![](https://render.githubusercontent.com/render/math?math=(t-1, N-t))-degrees of freedom where N is the sum of all the ![](https://render.githubusercontent.com/render/math?math=n_j) values above.
+As was briefly alluded to in the instructions for the previous task, if the expectations for all t distributions that were sampled are identical F is a sample from an f-distribution with ![](https://render.githubusercontent.com/render/math?math=(t-1,N-t))-degrees of freedom where N is the sum of all the ![](https://render.githubusercontent.com/render/math?math=n_j) values above.
 
 __To complete this task I want you to write code to generate a histogram for F and to "prove" for yourself that this statement about the distribution that F is sampled from is true.__
 
